@@ -4,14 +4,14 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
   enable: true,
   src: {
     desktop: [
-      "/assets/desktop-banner/public/assets/desktop-banner/1cdc83e5624979a0e69b7bdb3417ukd5.jpg",
-      "/assets/desktop-banner/public/assets/desktop-banner/179294304015291_P29263358.jpg",
-      "/assets/desktop-banner/public/assets/desktop-banner/f651700e9672b0a3ad88abceea183qp5.jpg",
+      "/assets/desktop-banner/1cdc83e5624979a0e69b7bdb3417ukd5.jpg",
+      "/assets/desktop-banner/179294304015291_P29263358.jpg",
+      "/assets/desktop-banner/f651700e9672b0a3ad88abceea183qp5.jpg",
     ],
     mobile: [
-      "/assets/desktop-banner/public/assets/desktop-banner/1cdc83e5624979a0e69b7bdb3417ukd5.jpg",
-      "/assets/desktop-banner/public/assets/desktop-banner/179294304015291_P29263358.jpg",
-      "/assets/desktop-banner/public/assets/desktop-banner/f651700e9672b0a3ad88abceea183qp5.jpg",
+      "/assets/desktop-banner/1cdc83e5624979a0e69b7bdb3417ukd5.jpg",
+      "/assets/desktop-banner/179294304015291_P29263358.jpg",
+      "/assets/desktop-banner/f651700e9672b0a3ad88abceea183qp5.jpg",
     ],
   },
   position: "center",

@@ -12,26 +12,27 @@ export const musicPlayerConfig: MusicPlayerConfig = {
       {
         title: "光放て！",
         artist: "柳麻美",
-        url: "/misic/ATRI -My Dear Moments- Opening Movie.mp3", // 相对于 public 文件夹的路径
-        cover: "/misic/main_sp.jpg", // (可选) 歌曲封面
+        url: "/assets/desktop-banner/ATRI -My Dear Moments- Opening Movie.mp3", // 相对于 public 文件夹的路径
+        cover: "/assets/desktop-banner/main_sp.jpg", // (可选) 歌曲封面
       },
       {
         title: "Dear Moments",
         artist: "赤尾ひかる",
-        url: "/misic/src/Dear Moments.mp3", // 相对于 public 文件夹的路径
-        cover: "/misic/main_sp.jpg", // (可选) 歌曲封面
+        url: "/assets/desktop-banner/Dear Moments.mp3", // 相对于 public 文件夹的路径
+        cover: "/assets/desktop-banner/main_sp.jpg", // (可选) 歌曲封面
       },
       {
         title: "In Love With Myself",
         artist: "Kalman Chodakiewitz",
-        url: "/misic/In Love With Myself Cyberpunk Edgerunners 2 (Original Series Soundtrack).mp3", // 相对于 public 文件夹的路径
-        cover: "/misic/ab67616d0000b2733cf1aa2d992aa735cf8cc295.jpg", // (可选) 歌曲封面
+        url: "/assets/desktop-banner/In Love With Myself Cyberpunk Edgerunners 2 (Original Series Soundtrack).mp3", // 相对于 public 文件夹的路径
+        cover:
+          "/assets/desktop-banner/ab67616d0000b2733cf1aa2d992aa735cf8cc295.jpg", // (可选) 歌曲封面
       },
       {
         title: "I Really Want to Stay At Your House",
         artist: "Rosa Walton",
-        url: "/misic/Cyberpunk Edgerunners “I Really Want to Stay At Your House” by Rosa Walton Music Video.mp3", // 相对于 public 文件夹的路径
-        cover: "/misic/500x500.jpg", // (可选) 歌曲封面
+        url: "/assets/desktop-banner/Cyberpunk Edgerunners “I Really Want to Stay At Your House” by Rosa Walton Music Video.mp3", // 相对于 public 文件夹的路径
+        cover: "/assets/desktop-banner/500x500.jpg", // (可选) 歌曲封面
       },
     ],
   },
