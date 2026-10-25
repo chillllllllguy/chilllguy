@@ -1,7 +1,7 @@
 ---
 title: Tree practce
 description: 這次寫很順
-published: 2026-4-19
+published: 2026-04-19
 tags: [cpp, tree]
 category: algorithm
 image: "./83e5770bc682026f23c4fe8408423cc3.jpg"

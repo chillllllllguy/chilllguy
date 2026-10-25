@@ -1,7 +1,7 @@
 ---
 title: AP325 Q-6-8. Local alignment
 description: dp好難 我不會畫圖
-published: 2026-2-18
+published: 2026-02-18
 tags: [AP325, cpp, LCS, dp]
 category: algorithm
 image: "./98hH3mf.jpg"
