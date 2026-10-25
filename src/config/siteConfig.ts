@@ -4,11 +4,11 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-  title: "Mizuki",
-  subtitle: "One demo website",
-  siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-  siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
-  timeZone: "Asia/Shanghai", // 文章日期使用的 IANA 时区，可改为 Asia/Tokyo、Europe/Berlin 等
+  title: "CHILLGUY",
+  subtitle: "not a lolita complex!",
+  siteURL: "https://chilllguy-fpct.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
+  siteStartDate: "2026-10-26", // 站点开始运行日期，用于站点统计组件计算运行天数
+  timeZone: "Asia/Taipei", // 文章日期使用的 IANA 时区，可改为 Asia/Tokyo、Europe/Berlin 等
 
   lang: SITE_LANG,
 
@@ -35,11 +35,11 @@ export const siteConfig: SiteConfig = {
     // 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
     mode: "text-icon",
     // 顶栏标题文本
-    text: "MizukiUI",
+    text: "CHILLGUY",
     // 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-    icon: "assets/home/home.webp",
+    icon: "assets/home/icon.png",
     // 网站Logo图片路径
-    logo: "assets/home/default-logo.webp",
+    logo: "assets/home/icon.png",
   },
 
   // 旧版页面自动缩放配置。默认关闭，页面尺寸优先交由响应式布局处理。
@@ -54,21 +54,8 @@ export const siteConfig: SiteConfig = {
   },
 
   bangumi: {
-    userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+    userId: "1295569", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
     fetchOnDev: false, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
-  },
-
-  bilibili: {
-    vmid: "your-bilibili-vmid", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
-    fetchOnDev: false, // 是否在开发环境下获取 Bilibili 数据（默认 false）
-    coverMirror: "", // 封面图片镜像源（可选，如果需要使用镜像源，例如 "https://images.weserv.nl/?url="）
-    useWebp: true, // 是否使用WebP格式（默认 true）
-
-    // bilibili 观看进度配置说明(可选，如需配置仔细阅读):
-    // 1. 本地开发：请在 .env 文件中填写 BILI_SESSDATA=your_SESSDATA
-    // 2. 远程构建：请在 GitHub 仓库 Settings -> Secrets 中添加 BILI_SESSDATA
-    // 注意：SESSDATA 为账号凭证，为防止泄露，切记不可使用硬编码。
-    // 安全提示：如 SESSDATA 已泄露，请打开 B站手机端 —— 我的 —— 设置 —— 安全隐私 —— 登陆设备管理 —— 一键退登，销毁已泄露的账号凭证
   },
 
   anime: {
@@ -160,15 +147,15 @@ export const siteConfig: SiteConfig = {
 
     homeText: {
       enable: true,
-      title: "わたしの部屋",
+      title: "I was replaced by AI.",
       switchable: true,
 
       subtitle: [
-        "特別なことはないけど、君がいると十分です",
-        "今でもあなたは私の光",
-        "君ってさ、知らないうちに私の毎日になってたよ",
-        "君と話すと、なんか毎日がちょっと楽しくなるんだ",
-        "今日はなんでもない日。でも、ちょっとだけいい日",
+        "a coffee a day, keeps the doctor away :D",
+        "I don't need sleep. I need answers",
+        "don't know how to open Compiler, can u teach me?",
+        //"君と話すと、なんか毎日がちょっと楽しくなるんだ",
+        //"今日はなんでもない日。でも、ちょっとだけいい日",
       ],
       typewriter: {
         enable: true, // 启用副标题打字机效果
