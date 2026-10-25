@@ -2,23 +2,24 @@
 // Used to manage data for the skill display page
 
 export interface Skill {
-	id: string;
-	name: string;
-	description: string;
-	icon: string; // Iconify icon name
-	category: "frontend" | "backend" | "database" | "tools" | "other";
-	level: "beginner" | "intermediate" | "advanced" | "expert";
-	experience: {
-		years: number;
-		months: number;
-	};
-	projects?: string[]; // Related project IDs
-	certifications?: string[];
-	color?: string; // Skill card theme color
+  id: string;
+  name: string;
+  description: string;
+  icon: string; // Iconify icon name
+  category: "frontend" | "backend" | "database" | "tools" | "other";
+  level: "beginner" | "intermediate" | "advanced" | "expert";
+  experience: {
+    years: number;
+    months: number;
+  };
+  projects?: string[]; // Related project IDs
+  certifications?: string[];
+  color?: string; // Skill card theme color
 }
 
 export const skillsData: Skill[] = [
-	// Frontend Skills
+  // Frontend Skills
+  /*
 	{
 		id: "javascript",
 		name: "JavaScript",
@@ -162,8 +163,9 @@ export const skillsData: Skill[] = [
 		projects: ["vue-project", "react-project"],
 		color: "#646CFF",
 	},
-
-	// Backend Skills
+*/
+  // Backend Skills
+  /*
 	{
 		id: "nodejs",
 		name: "Node.js",
@@ -176,17 +178,18 @@ export const skillsData: Skill[] = [
 		projects: ["data-visualization-tool", "e-commerce-platform"],
 		color: "#339933",
 	},
-	{
-		id: "python",
-		name: "Python",
-		description:
-			"A general-purpose programming language suitable for web development, data analysis, machine learning, and more.",
-		icon: "logos:python",
-		category: "backend",
-		level: "intermediate",
-		experience: { years: 1, months: 10 },
-		color: "#3776AB",
-	},
+	*/
+  {
+    id: "python",
+    name: "Python",
+    description: "use it to play the farmer was replaced :)",
+    icon: "logos:python",
+    category: "backend",
+    level: "intermediate",
+    experience: { years: 0, months: 2 },
+    color: "#3776AB",
+  },
+  /*
 	{
 		id: "java",
 		name: "Java",
@@ -235,30 +238,30 @@ export const skillsData: Skill[] = [
 		projects: ["system-tool", "performance-critical-app"],
 		color: "#CE422B",
 	},
-	{
-		id: "cpp",
-		name: "C++",
-		description:
-			"A high-performance systems programming language widely used in game development, system software, and embedded development.",
-		icon: "logos:c-plusplus",
-		category: "backend",
-		level: "intermediate",
-		experience: { years: 1, months: 4 },
-		projects: ["game-engine", "system-optimization"],
-		color: "#00599C",
-	},
-	{
-		id: "c",
-		name: "C",
-		description:
-			"A low-level systems programming language, the foundation for operating systems and embedded systems development.",
-		icon: "logos:c",
-		category: "backend",
-		level: "intermediate",
-		experience: { years: 1, months: 2 },
-		projects: ["embedded-system", "kernel-module"],
-		color: "#A8B9CC",
-	},
+	*/
+  {
+    id: "cpp",
+    name: "C++",
+    description: "it can help me solve many problem",
+    icon: "logos:c-plusplus",
+    category: "backend",
+    level: "intermediate",
+    experience: { years: 2, months: 0 },
+    projects: ["algorithm", "competitive programming"],
+    color: "#00599C",
+  },
+  {
+    id: "c",
+    name: "C",
+    description: "I'M SO OLD",
+    icon: "logos:c",
+    category: "backend",
+    level: "intermediate",
+    experience: { years: 2, months: 0 },
+    projects: ["algorithm", "competitive programming"],
+    color: "#A8B9CC",
+  },
+  /*
 	{
 		id: "kotlin",
 		name: "Kotlin",
@@ -415,8 +418,9 @@ export const skillsData: Skill[] = [
 		projects: ["task-manager-app"],
 		color: "#FFCA28",
 	},
-
-	// Tools
+*/
+  // Tools
+  /*
 	{
 		id: "git",
 		name: "Git",
@@ -428,17 +432,18 @@ export const skillsData: Skill[] = [
 		experience: { years: 3, months: 0 },
 		color: "#F05032",
 	},
-	{
-		id: "vscode",
-		name: "VS Code",
-		description:
-			"A lightweight but powerful code editor with a rich plugin ecosystem.",
-		icon: "logos:visual-studio-code",
-		category: "tools",
-		level: "expert",
-		experience: { years: 3, months: 6 },
-		color: "#007ACC",
-	},
+	*/
+  {
+    id: "vscode",
+    name: "VS Code",
+    description: "like the configuration",
+    icon: "logos:visual-studio-code",
+    category: "tools",
+    level: "expert",
+    experience: { years: 2, months: 6 },
+    color: "#007ACC",
+  },
+  /*
 	{
 		id: "webstorm",
 		name: "WebStorm",
@@ -581,18 +586,19 @@ export const skillsData: Skill[] = [
 		projects: ["cloud-deployment", "serverless-app"],
 		color: "#FF9900",
 	},
-	{
-		id: "linux",
-		name: "Linux",
-		description:
-			"An open-source operating system, the preferred choice for server deployment and development environments.",
-		icon: "logos:linux-tux",
-		category: "tools",
-		level: "intermediate",
-		experience: { years: 2, months: 0 },
-		projects: ["server-management", "shell-scripting"],
-		color: "#FCC624",
-	},
+	*/
+  {
+    id: "linux",
+    name: "Linux",
+    description: "use it to play ctf",
+    icon: "logos:linux-tux",
+    category: "tools",
+    level: "beginner",
+    experience: { years: 1, months: 0 },
+    projects: ["ctf", "terminal"],
+    color: "#FCC624",
+  },
+  /*
 	{
 		id: "postman",
 		name: "Postman",
@@ -676,4 +682,5 @@ export const skillsData: Skill[] = [
 		projects: ["e2e-testing"],
 		color: "#17202C",
 	},
+	*/
 ];
