@@ -1,0 +1,55 @@
+name: Deploy Astro to GitHub Pages
+
+on:
+  # 每次推送到 main 分支時觸發
+  push:
+    branches: [ main ]
+  # 允許手動觸發
+  workflow_dispatch:
+
+# 設定權限允許部署到 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 保留完整 Git 歷史紀錄（避免某些外掛報錯）
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies and Build
+        run: |
+          # 自動偵測並使用對應的套件管理器 (npm / pnpm / yarn)
+          if [ -f "pnpm-lock.yaml" ]; then
+            corepack enable && pnpm install && pnpm build
+          elif [ -f "yarn.lock" ]; then
+            yarn install && yarn build
+          else
+            npm ci && npm run build
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist # Astro 預設的打包輸出資料夾
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
