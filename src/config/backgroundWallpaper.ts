@@ -4,17 +4,14 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
   enable: true,
   src: {
     desktop: [
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1230140/ss_b1398d1db33b83830d9055d5df79f120bad9110d.1920x1080.jpg?t=1761759369",
-      "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2024/03/23/0/29263358.jpg&x=0&y=0&sw=0&sh=0&exp=3600",
-      "https://storage.moegirl.org.cn/moegirl/commons/5/56/Wp_ATRI.jpg",
-      //"/assets/desktop-banner/2.webp",
-      //"/assets/desktop-banner/3.webp",
-      //"/assets/desktop-banner/4.webp",
+      "/assets/desktop-banner/public/assets/desktop-banner/1cdc83e5624979a0e69b7bdb3417ukd5.jpg",
+      "/assets/desktop-banner/public/assets/desktop-banner/179294304015291_P29263358.jpg",
+      "/assets/desktop-banner/public/assets/desktop-banner/f651700e9672b0a3ad88abceea183qp5.jpg",
     ],
     mobile: [
-      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1230140/ss_b1398d1db33b83830d9055d5df79f120bad9110d.1920x1080.jpg?t=1761759369",
-      "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2024/03/23/0/29263358.jpg&x=0&y=0&sw=0&sh=0&exp=3600",
-      "https://storage.moegirl.org.cn/moegirl/commons/5/56/Wp_ATRI.jpg",
+      "/assets/desktop-banner/public/assets/desktop-banner/1cdc83e5624979a0e69b7bdb3417ukd5.jpg",
+      "/assets/desktop-banner/public/assets/desktop-banner/179294304015291_P29263358.jpg",
+      "/assets/desktop-banner/public/assets/desktop-banner/f651700e9672b0a3ad88abceea183qp5.jpg",
     ],
   },
   position: "center",
