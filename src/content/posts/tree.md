@@ -1,6 +1,6 @@
 ---
 title: Tree practce
-discription: "這次寫很順"
+description: "這次寫很順"
 published: 2026-4-19
 tags: [cpp, tree]
 category: algorithm

@@ -1,6 +1,6 @@
 ---
 title: Sudokul-Leetcode
-discription: "回溯"
+description: "回溯"
 published: 2026-4-9
 tags: [algorithm, cpp, Leetcode]
 category: [cpp]
