@@ -1,71 +1,71 @@
 // 本地番剧数据配置
 export interface AnimeItem {
-	title: string;
-	status: "watching" | "completed" | "planned";
-	rating: number;
-	cover: string;
-	description: string;
-	episodes: string;
-	year: string;
-	genre: string[];
-	studio: string;
-	link: string;
-	progress: number;
-	totalEpisodes: number;
-	startDate: string;
-	endDate: string;
+  title: string;
+  status: "watching" | "completed" | "planned";
+  rating: number;
+  cover: string;
+  description: string;
+  episodes: string;
+  year: string;
+  genre: string[];
+  studio: string;
+  link: string;
+  progress: number;
+  totalEpisodes: number;
+  startDate: string;
+  endDate: string;
 }
 
 const localAnimeList: AnimeItem[] = [
-	{
-		title: "孤獨搖滾";
-		status: "completed";
-		rating: 8;
-		cover: "./band.jpg";
-		description: "一輩子的樂團";
-		episodes: "12";
-		year: "2022";
-		genre: ["band"];
-		studio: "CloverWorks";
-		link: "https://www.netflix.com/tw/title/81641170?source=35&fromWatch=true";
-		progress: 12;
-		totalEpisodes: 12;
-		startDate: "2024-04";
-		endDate: "2024-04";
-	},
-	{
-		title: "Cyberpunk: Edgerunners 1";
-		status: "completed";
-		rating: 10;
-		cover: "./cyber.jpg";
-		description: "一起去月球";
-		episodes: "10";
-		year: "2022";
-		genre: ["cyberpunk"];
-		studio: "Trigger";
-		link: "https://www.netflix.com/tw/title/81054853";
-		progress: 10;
-		totalEpisodes: 10;
-		startDate: "2026-06";
-		endDate: "2026-06";
-	},
-	{
-		title: "Cyberpunk: Edgerunners 2";
-		status: "completed";
-		rating: 10;
-		cover: "./cyber2.jpg";
-		description: "心情複雜";
-		episodes: "10";
-		year: "2026";
-		genre: ["cyberpunk"];
-		studio: "Trigger";
-		link: "https://www.netflix.com/tw/title/81054853";
-		progress: 10;
-		totalEpisodes: 10;
-		startDate: "2026-10";
-		endDate: "2026-10";
-	},
-	/*
+  {
+    title: "孤獨搖滾",
+    status: "completed",
+    rating: 8,
+    cover: "./band.jpg",
+    description: "一輩子的樂團",
+    episodes: "12",
+    year: "2022",
+    genre: ["band"],
+    studio: "CloverWorks",
+    link: "https://www.netflix.com/tw/title/81641170?source=35&fromWatch=true",
+    progress: 12,
+    totalEpisodes: 12,
+    startDate: "2024-04",
+    endDate: "2024-04",
+  },
+  {
+    title: "Cyberpunk: Edgerunners 1",
+    status: "completed",
+    rating: 10,
+    cover: "./cyber.jpg",
+    description: "一起去月球",
+    episodes: "10",
+    year: "2022",
+    genre: ["cyberpunk"],
+    studio: "Trigger",
+    link: "https://www.netflix.com/tw/title/81054853",
+    progress: 10,
+    totalEpisodes: 10,
+    startDate: "2026-06",
+    endDate: "2026-06",
+  },
+  {
+    title: "Cyberpunk: Edgerunners 2",
+    status: "completed",
+    rating: 10,
+    cover: "./cyber2.jpg",
+    description: "心情複雜",
+    episodes: "10",
+    year: "2026",
+    genre: ["cyberpunk"],
+    studio: "Trigger",
+    link: "https://www.netflix.com/tw/title/81054853",
+    progress: 10,
+    totalEpisodes: 10,
+    startDate: "2026-10",
+    endDate: "2026-10",
+  },
+  /*
 	{
 		title: "Lycoris Recoil",
 		status: "completed",
