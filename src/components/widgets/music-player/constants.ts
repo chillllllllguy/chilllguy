@@ -11,51 +11,52 @@ export const DEFAULT_VOLUME = 0.7;
 export const DEFAULT_COVER_URL = "/favicon/favicon.ico";
 
 export const LOCAL_PLAYLIST: Song[] = [
-	{
-		id: 1,
-		title: "口笛で愛は歌えない",
-		artist: "Dazbee",
-		cover: dazbeeCover,
-		url: "assets/music/url/dazbee.mp3",
-		duration: 241,
-	},
-	{
-		id: 2,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: hitoriCover,
-		url: "assets/music/url/hitori.mp3",
-		duration: 253,
-	},
-	{
-		id: 3,
-		title: "眩耀夜行",
-		artist: "ス리즈ブーケ",
-		cover: xryxCover,
-		url: "assets/music/url/xryx.mp3",
-		duration: 245,
-	},
-	{
-		id: 4,
-		title: "春雷の頃",
-		artist: "22/7",
-		cover: clCover,
-		url: "assets/music/url/cl.mp3",
-		duration: 242,
-	},
+  {
+    id: 1,
+    title: "光放て！",
+    artist: "柳麻美",
+    cover: "/assets/desktop-banner/main_sp.jpg",
+    url: "/assets/desktop-banner/ATRI -My Dear Moments- Opening Movie.mp3",
+    duration: 97,
+  },
+  {
+    id: 2,
+    title: "Dear Moments",
+    artist: "赤尾ひかる",
+    cover: "/assets/desktop-banner/main_sp.jpg",
+    url: "/assets/desktop-banner/Dear Moments.mp3",
+    duration: 386,
+  },
+  {
+    id: 3,
+    title: "In Love With Myself",
+    artist: "Kalman Chodakiewitz",
+    cover:
+      "/assets/desktop-banner/ab67616d0000b2733cf1aa2d992aa735cf8cc295.jpg",
+    url: "/assets/desktop-banner/In Love With Myself Cyberpunk Edgerunners 2 (Original Series Soundtrack).mp3",
+    duration: 174,
+  },
+  {
+    id: 4,
+    title: "I Really Want to Stay At Your House",
+    artist: "Rosa Walton",
+    cover: "/assets/desktop-banner/500x500.jpg",
+    url: "/assets/desktop-banner/Cyberpunk Edgerunners “I Really Want to Stay At Your House” by Rosa Walton Music Video.mp3",
+    duration: 262,
+  },
 ];
 
 export const DEFAULT_SONG: Song = {
-	title: "Sample Song",
-	artist: "Sample Artist",
-	cover: DEFAULT_COVER_URL,
-	url: "",
-	duration: 0,
-	id: 0,
+  title: "Sample Song",
+  artist: "Sample Artist",
+  cover: DEFAULT_COVER_URL,
+  url: "",
+  duration: 0,
+  id: 0,
 };
 
 export const DEFAULT_METING_API =
-	"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r";
+  "https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r";
 export const DEFAULT_METING_ID = "14164869977";
 export const DEFAULT_METING_SERVER = "netease";
 export const DEFAULT_METING_TYPE = "playlist";
