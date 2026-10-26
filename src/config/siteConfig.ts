@@ -37,9 +37,9 @@ export const siteConfig: SiteConfig = {
     // 顶栏标题文本
     text: "CHILLGUY",
     // 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-    icon: "/home/rolling.png",
+    icon: "/assets/desktop-banner/icon.webp",
     // 网站Logo图片路径
-    logo: "/home/rolling.png",
+    logo: "/assets/desktop-banner/icon.webp",
   },
 
   // 旧版页面自动缩放配置。默认关闭，页面尺寸优先交由响应式布局处理。

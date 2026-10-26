@@ -17,7 +17,10 @@ const diaryData: DiaryItem[] = [
     id: 1,
     content: "I'll give u a huge hug Q",
     date: "2026-10-15T10:30:00Z",
-    images: ["src/data/3946810_331.jpg", "src/data/3946810_330.jpg"],
+    images: [
+      "/assets/desktop-banner/3946810_331.jpg",
+      "/assets/desktop-banner/3946810_330.jpg",
+    ],
   },
 ];
 
