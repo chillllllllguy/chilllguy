@@ -140,8 +140,8 @@ export const navBarConfig: NavBarConfig = {
       icon: "material-symbols:link",
       children: [
         {
-          name: "cses_practice",
-          url: "https://github.com/chillllllllguy/cses_prac",
+          name: "pucoCTF",
+          url: "https://github.com/chillllllllguy/picoCTF_fresh",
           external: true, // 外部链接，新标签页打开
           icon: "fa7-brands:github",
         },
