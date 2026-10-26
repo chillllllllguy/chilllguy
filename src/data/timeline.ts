@@ -1,25 +1,63 @@
 import type { TimelineItem } from "../components/features/timeline/types";
 
 export const timelineData: TimelineItem[] = [
-	{
-		id: "current-study",
-		title: "Studying Computer Science and Technology",
-		description:
-			"Currently studying Computer Science and Technology, focusing on web development and software engineering.",
-		type: "education",
-		startDate: "2022-09-01",
-		location: "Beijing",
-		organization: "Beijing Institute of Technology",
-		skills: ["Java", "Python", "JavaScript", "HTML/CSS", "MySQL"],
-		achievements: [
-			"Current GPA: 3.6/4.0",
-			"Completed data structures and algorithms course project",
-			"Participated in multiple course project developments",
-		],
-		icon: "material-symbols:school",
-		color: "#059669",
-		featured: true,
-	},
+  {
+    id: "activity",
+    title: "Hacks In Taiwan Conference (HITCON)",
+    description: "like the agenda, learn so much",
+    type: "education",
+    startDate: "2026-08-21",
+    endDate: "2026-08-22",
+  },
+  {
+    id: "test",
+    title: "APCS Upper-Intermediate",
+    description: "I'm making progress :D",
+    type: "achievement",
+    startDate: "2026-07-05",
+    endDate: "2026-07-05",
+    achievements: ["Concept 5/5 || Implementation 4/5"],
+    icon: "material-symbols:verified",
+    color: "#059669",
+    featured: true,
+  },
+  {
+    id: "contest",
+    title: "GICS contest",
+    description: "I love my partners :D first time join cybersecurity contest",
+    type: "achievement",
+    startDate: "2026-05-30",
+    endDate: "2026-05-30",
+  },
+  {
+    id: "contest",
+    title: "School-level Academic Subject Contest",
+    description: "practice for two weeks :P",
+    type: "achievement",
+    startDate: "2026-05-29",
+    endDate: "2026-06-02",
+    achievements: ["Informatics rk3", "Mathmatic rk9"],
+    icon: "material-symbols:verified",
+    color: "#059669",
+    featured: true,
+  },
+  {
+    id: "activity",
+    title: "Students' Information Technology Conference (SITCON)",
+    description: "sooo many people",
+    type: "education",
+    startDate: "2026-03-28",
+    endDate: "2026-03-28",
+  },
+  {
+    id: "current-study",
+    title: "Studying at National Hsinchu Girls' Senior High School",
+    description: "good at math / almost flunked Chinese",
+    type: "education",
+    startDate: "2024-09-01",
+    skills: ["Math", "Phy", "Chem", "En"],
+  },
+  /*
 	{
 		id: "mizuki-blog-project",
 		title: "Mizuki Personal Blog Project",
@@ -183,4 +221,5 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:code",
 		color: "#7C3AED",
 	},
+	*/
 ];

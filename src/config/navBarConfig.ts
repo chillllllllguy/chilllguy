@@ -184,11 +184,6 @@ export const navBarConfig: NavBarConfig = {
           url: "/about/",
           icon: "material-symbols:person",
         },
-        {
-          name: "Skills",
-          url: "/skills/",
-          icon: "material-symbols:psychology",
-        },
         /*
         {
           name: "Friends",
@@ -210,21 +205,17 @@ export const navBarConfig: NavBarConfig = {
 					url: "/projects/",
 					icon: "material-symbols:work",
 				}*/
-        /*
         {
           name: "Skills",
           url: "/skills/",
           icon: "material-symbols:psychology",
         },
-*/
         // LinkPreset.AITools,
-        /*
         {
           name: "Timeline",
           url: "/timeline/",
           icon: "material-symbols:timeline",
         },
-        */
       ],
     },
   ],
