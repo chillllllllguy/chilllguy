@@ -1,7 +1,7 @@
 a 17-year-old high student in Taiwan.
-I've been learning C++, Python, and related algorithms:D
-and I like tot play multiple games, but I have no time recently
-::github{repo="chillllllllguy/cses_prac"}
+I've been learning C++, Python, and related algorithms:D  
+and I like tot play multiple games, but I have no time recently  
+::github{repo="chillllllllguy/cses_prac"}  
 also, I practice cses to frepare for contests and test
 
 ## interest
