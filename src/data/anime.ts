@@ -18,7 +18,7 @@ export interface AnimeItem {
 
 const localAnimeList: AnimeItem[] = [
   {
-    title: "孤獨搖滾",
+    title: "Bocchi the Rock!",
     status: "completed",
     rating: 8,
     cover: "/assets/desktop-banner/band.jpg",
@@ -32,6 +32,22 @@ const localAnimeList: AnimeItem[] = [
     totalEpisodes: 12,
     startDate: "2024-04",
     endDate: "2024-04",
+  },
+  {
+    title: "Kaiju No. 8",
+    status: "completed",
+    rating: 8,
+    cover: "/assets/desktop-banner/8.webp",
+    description: "fav song - nobody",
+    episodes: "12",
+    year: "2024",
+    genre: ["advantage"],
+    studio: "Production I.G",
+    link: "https://www.netflix.com/tw/title/81759290",
+    progress: 12,
+    totalEpisodes: 12,
+    startDate: "2025-06",
+    endDate: "2025-06",
   },
   {
     title: "Cyberpunk: Edgerunners 1",

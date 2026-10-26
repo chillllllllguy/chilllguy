@@ -140,7 +140,7 @@ export const navBarConfig: NavBarConfig = {
       icon: "material-symbols:link",
       children: [
         {
-          name: "pucoCTF",
+          name: "picoCTF",
           url: "https://github.com/chillllllllguy/picoCTF_fresh",
           external: true, // 外部链接，新标签页打开
           icon: "fa7-brands:github",
@@ -189,11 +189,12 @@ export const navBarConfig: NavBarConfig = {
           url: "/skills/",
           icon: "material-symbols:psychology",
         },
+        /*
         {
           name: "Friends",
           url: "/friends/",
           icon: "material-symbols:group",
-        },
+        },*/
       ],
     },
 
