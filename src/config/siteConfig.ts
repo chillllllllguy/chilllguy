@@ -147,7 +147,7 @@ export const siteConfig: SiteConfig = {
 
     homeText: {
       enable: true,
-      title: "I was replaced by AI.",
+      title: "Ciallo～(∠·ω< )⌒☆",
       switchable: true,
 
       subtitle: [
