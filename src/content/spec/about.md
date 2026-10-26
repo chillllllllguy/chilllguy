@@ -1,8 +1,9 @@
 a 17-year-old high student in Taiwan.
 I've been learning C++, Python, and related algorithms \:D  
-and I like tot play multiple games, but I have no time recently  
+also like to play multiple games, but my schedule is full recently
+prioritizing the entrance exam next year Q
 ::github{repo="chillllllllguy/cses_prac"}  
-also, I practice cses to frepare for contests and test
+also, I practice cses to prepare for contests and test
 
 ## interest
 
@@ -28,3 +29,7 @@ also, I practice cses to frepare for contests and test
 - Wuthering Waves
 - The Farmer Was Replaced
 - ATRI -My Dear Moments-
+
+### contact me
+
+Discord: .judychang
