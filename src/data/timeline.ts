@@ -50,6 +50,18 @@ export const timelineData: TimelineItem[] = [
     endDate: "2026-03-28",
   },
   {
+    id: "contest",
+    title: "TOI Preliminary Round",
+    description: "exhausted",
+    type: "achievement",
+    startDate: "2026-03-07",
+    endDate: "2026-03-07",
+    achievements: ["151/500 rk94"],
+    icon: "material-symbols:verified",
+    color: "#059669",
+    featured: true,
+  },
+  {
     id: "current-study",
     title: "Studying at National Hsinchu Girls' Senior High School",
     description: "good at math / almost flunked Chinese",
