@@ -2,6 +2,18 @@ import type { TimelineItem } from "../components/features/timeline/types";
 
 export const timelineData: TimelineItem[] = [
   {
+    id: "contest",
+    title: "North 2 Academic Subject Contest",
+    description: "didn't reach my goal",
+    type: "achievement",
+    startDate: "2026-11-13",
+    endDate: "2026-11-13",
+    achievements: ["rk14"],
+    icon: "material-symbols:verified",
+    color: "#059669",
+    featured: true,
+  },
+  {
     id: "activity",
     title: "Hacks In Taiwan Conference (HITCON)",
     description: "like the agenda, learn so much",
