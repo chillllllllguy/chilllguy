@@ -27,7 +27,7 @@ const diaryData: DiaryItem[] = [
     content: "Oguri Cup <3",
     date: "2026-11-17T23:30:00Z",
     images: [
-      "/assets/desktop-banner/oguri1.jpg",
+      "/assets/desktop-banner/ougri1.jpg",
       "/assets/desktop-banner/oguri.jpg",
     ],
   },
