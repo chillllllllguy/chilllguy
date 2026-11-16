@@ -13,6 +13,22 @@ export const DEFAULT_COVER_URL = "/favicon/favicon.ico";
 export const LOCAL_PLAYLIST: Song[] = [
   {
     id: 1,
+    title: "超える",
+    artist: "Alexandros",
+    cover: "/assets/desktop-banner/ogu.jpg", // (可选) 歌曲封面
+    url: "/assets/desktop-banner/og.mp3", // 相对于 public 文件夹的路径
+    duration: 283,
+  },
+  {
+    id: 2,
+    title: "BRIGHTEST HEART",
+    artist: "CV.Takayanagi Tomoyo",
+    cover: "/assets/desktop-banner/ogu.jpg", // (可选) 歌曲封面
+    url: "/assets/desktop-banner/og1.mp3", // 相对于 public 文件夹的路径
+    duration: 242,
+  },
+  {
+    id: 3,
     title: "光放て！",
     artist: "柳麻美",
     cover: "/assets/desktop-banner/main_sp.jpg",
@@ -20,7 +36,7 @@ export const LOCAL_PLAYLIST: Song[] = [
     duration: 97,
   },
   {
-    id: 2,
+    id: 4,
     title: "Dear Moments",
     artist: "赤尾ひかる",
     cover: "/assets/desktop-banner/main_sp.jpg",
@@ -28,7 +44,7 @@ export const LOCAL_PLAYLIST: Song[] = [
     duration: 386,
   },
   {
-    id: 3,
+    id: 5,
     title: "In Love With Myself",
     artist: "Kalman Chodakiewitz",
     cover:
@@ -37,7 +53,7 @@ export const LOCAL_PLAYLIST: Song[] = [
     duration: 174,
   },
   {
-    id: 4,
+    id: 6,
     title: "I Really Want to Stay At Your House",
     artist: "Rosa Walton",
     cover: "/assets/desktop-banner/500x500.jpg",
