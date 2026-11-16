@@ -22,6 +22,15 @@ const diaryData: DiaryItem[] = [
       "/assets/desktop-banner/3946810_330.jpg",
     ],
   },
+  {
+    id: 2,
+    content: "Oguri Cup <3",
+    date: "2026-11-17T23:30:00Z",
+    images: [
+      "/assets/desktop-banner/oguri1.jpg",
+      "/assets/desktop-banner/oguri.jpg",
+    ],
+  },
 ];
 
 // 获取日记列表（按时间倒序）
